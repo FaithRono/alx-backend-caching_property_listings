@@ -1,0 +1,56 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Environment variables
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Cache files
+cache_metrics.log
+
+# Docker
+.dockerignore
+
+# Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Testing
+.coverage
+.pytest_cache/
+.tox/
+htmlcov/
+
+# Static files (if using whitenoise or similar)
+staticfiles/
+static_root/
